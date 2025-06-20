@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Voice Transcriber Telegram Bot Documentation</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: #212529;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 40px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 5px 0;
+        }
+        main {
+            padding: 40px;
+        }
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            color: #007bff;
+            border-bottom: 2px solid #dee2e6;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        code, pre {
+            background-color: #e9ecef;
+            padding: 10px;
+            border-radius: 5px;
+            display: block;
+            overflow-x: auto;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Voice Transcriber Telegram Bot Documentation</h1>
+        <p><strong>Documentation</strong></p>
+        <p><em>Created by: Oleg Belov | jakgames229@gmail.com</em></p>
+        <p><small>Created on: 07/1/2025 | Last update: 06/03/2025</small></p>
+    </header>
+    <main>
+        <section id="intro">
+            <p>Welcome to the documentation for Voice Transcriber – a multifunctional Telegram bot built with aiogram v3, designed to transcribe and manage voice messages with multilingual and admin features.
+
+</p>
+            <p>Voice Transcriber is a multifunctional Telegram bot built with <strong>aiogram v3</strong>. It transcribes voice messages, supports multilingual interaction, and includes admin tools via a user-friendly interface.</p></p>
+        </section>
+
+        <section id="dependencies">
+            <h2>⚙️ Dependencies</h2>
+            <h3>Python Packages:</h3><pre><code>aiogram==3.x
+SQLAlchemy
+pydantic
+asyncio</code></pre>
+        </section>
+    
+        <section id="system_requirements">
+            <h2>System Requirements:</h2>
+            <ul><li><strong>ffmpeg</strong> must be installed and accessible in the system path.</li></ul>
+        </section>
+    
+        <section id="installation">
+            <h2>🚀 Installation</h2>
+            <ol><li><strong>Clone the repository:</strong><pre><code>git clone https://github.com/your-repo/voice-transcriber-bot.git
+cd voice-transcriber-bot</code></pre></li><li><strong>Install dependencies:</strong><pre><code>pip install -r requirements.txt</code></pre></li><li><strong>Edit config.py:</strong><pre><code>BOT_TOKEN = "your_bot_token"
+ADMIN = your_telegram_id</code></pre></li><li><strong>Install ffmpeg:</strong><ul><li>Linux: <code>sudo apt install ffmpeg</code></li><li>Windows: Download and add to system PATH</li></ul></li><li><strong>Run the bot:</strong><pre><code>python bot.py</code></pre></li></ol>
+        </section>
+    
+        <section id="project_structure">
+            <h2>📁 Project Structure</h2>
+            <pre><code>voice-transcriber-bot/
+├── bot.py
+├── config.py
+├── handlers/
+├── keyboards/
+├── middleware/
+├── models/
+├── repositories/
+├── utils/
+├── requirements.txt
+└── README.md</code></pre>
+        </section>
+    
+        <section id="development_notes">
+            <h2>🛠 Development Notes</h2>
+            <ul><li>Built using asynchronous architecture.</li><li>Full multilingual support.</li><li>Logging handled via Python's <code>logging</code> module.</li></ul>
+        </section>
+    
+        <section id="support">
+            <h2>❓ Support</h2>
+            <p>For questions or issues, open a GitHub issue or contact the Telegram <code>@jlasfurms</code>.</p>
+        </section>
+    
+    </main>
+</body>
+</html>
